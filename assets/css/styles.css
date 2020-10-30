@@ -215,6 +215,7 @@ img{
 .home__img{
   position: absolute;
   bottom: 0;
+  height: 86%;
 }
 
 /*BUTTONS*/
