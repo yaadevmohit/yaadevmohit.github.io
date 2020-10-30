@@ -79,7 +79,7 @@ img{
 .section-title{
   position: relative;
   font-size: var(--h2-font-size);
-  color: var(--first-color);
+  color: var(--second-color);
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
@@ -93,7 +93,7 @@ img{
   right: 0;
   margin: auto;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: var(--second-color);
 }
 .section{
   padding-top: 3rem;
@@ -176,7 +176,7 @@ img{
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: var(--second-color);
 }
 
 /*=== Show menu ===*/
@@ -197,7 +197,7 @@ img{
   margin-bottom: var(--mb-5);
 }
 .home__title-color{
-  color: var(--first-color);
+  color: var(--second-color);
 }
 .home__social{
   display: flex;
@@ -215,19 +215,6 @@ img{
 .home__img{
   position: absolute;
   bottom: 0;
-}
-
-/*BUTTONS*/
-.button{
-  display: inline-block;
-  background-color: var(--first-color);
-  color: #fff;
-  padding: .75rem 2.5rem;
-  font-weight: var(--font-semi);
-  border-radius: .5rem;
-}
-.button:hover{
-  box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
 
 /* ===== ABOUT =====*/
@@ -256,6 +243,7 @@ img{
 }
 .skills__text{
   margin-bottom: var(--mb-4);
+  text-align: center;
 }
 .skills__data{
   display: flex;
@@ -271,7 +259,7 @@ img{
 .skills__icon{
   font-size: 2rem;
   margin-right: var(--mb-2);
-  color: var(--first-color);
+  color: var(--second-color);
 }
 .skills__names{
   display: flex;
@@ -281,7 +269,7 @@ img{
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color: var(--first-color);
+  background-color: var(--second-color);
   height: .25rem;
   border-radius: .5rem;
   z-index: var(--z-back);
