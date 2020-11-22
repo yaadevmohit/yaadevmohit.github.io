@@ -358,10 +358,14 @@ img{
   }
 
 
-  .skills__container{
+  .about__container, .skills__container{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     text-align: initial;
+  }
+  .about__img img{
+    width: 400px;
+    height: 400px;
   }
   .work__container{
     grid-template-columns: repeat(3, 1fr);
@@ -393,11 +397,11 @@ img{
   row-gap: 2rem;
   text-align: center;
 }
-.about__img img{
+.about__img{
   display: flex;
   justify-content: center;
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  height: 100%;
   
 }
 
