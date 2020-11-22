@@ -24,6 +24,8 @@
     --big-font-size: 3.5rem;
     --h2-font-size: 2rem;
     --normal-font-size: 1rem;
+    --h1-font-size: 2rem;
+
   }
 }
 
@@ -307,26 +309,6 @@ img{
   transform: scale(1.1);
 }
 
-/* ===== CONTACT =====*/
-.contact__input{
-  width: 100%;
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-semi);
-  padding: 1rem;
-  border-radius: .5rem;
-  border: 1.5px solid var(--second-color);
-  outline: none;
-  margin-bottom: var(--mb-4);
-}
-.contact__button{
-  display: block;
-  border: none;
-  outline: none;
-  font-size: var(--normal-font-size);
-  cursor: pointer;
-  margin-left: auto;
-}
-
 /* ===== FOOTER =====*/
 .footer{
   background-color: var(--second-color);
@@ -338,14 +320,6 @@ img{
 .footer__title{
   font-size: 2rem;
   margin-bottom: var(--mb-4);
-}
-.footer__social{
-  margin-bottom: var(--mb-4);
-}
-.footer__icon{
-  font-size: 1.5rem;
-  color: #fff;
-  margin: 0 var(--mb-2)
 }
 
 /* ===== MEDIA QUERIES=====*/
@@ -383,26 +357,6 @@ img{
     color: var(--second-color);
   }
 
-  .home{
-    height: 100vh;
-  }
-  .home__data{
-    align-self: flex-end;
-  }
-  .home__social{
-    padding-top: 0;
-    padding-bottom: 2.5rem;
-    flex-direction: row;
-    align-self: flex-end;
-  }
-  .home__social-icon{
-    margin-bottom: 0;
-    margin-right: var(--mb-4);
-  }
-  .home__img{
-    width: 457px;
-    bottom: 15%;
-  }
 
   .about__container, .skills__container{
     grid-template-columns: repeat(2,1fr);
@@ -471,5 +425,3 @@ img{
 .about__social-icon:hover{
   color: var(--first-color);
 }
-
-
