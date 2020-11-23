@@ -10,6 +10,7 @@
 :root{
   --first-color: #4070F4;
   --second-color: #0E2431;
+  --third-color: #dedede;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -362,6 +363,7 @@ img{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     text-align: initial;
+    background-color: var(--third-color);
   }
   .about__img img{
     width: 400px;
